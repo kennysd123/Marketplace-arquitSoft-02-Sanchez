@@ -137,3 +137,9 @@ Presentación → Lógica de Negocio → Datos
 La capa de presentación no debe acceder directamente a la base de datos.
 
 Las operaciones solicitadas por los usuarios son procesadas primero por la capa de lógica de negocio, y esta capa utiliza la capa de datos cuando necesita almacenar o recuperar información.
+
+## Diagrama final de arquitectura
+
+El siguiente diagrama integra los actores, las capas del sistema y los sistemas externos.
+
+![Diagrama final de arquitectura](imagenes/Diagrama-final-de-arquitectura.png)
